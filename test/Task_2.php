@@ -7,9 +7,9 @@ function reformat($sentence) {
     $output = "";
     $first_letter = true;
 
-    //loo through the sentence
+    //loop through the sentence
     for ($i = 0; $i < strlen($sentence); $i++) {
-        //check whether vowel is their
+        //check whether vowel is their and run the next loop cycle
         if (in_array($sentence[$i], $vowels)) {
             continue;
         }

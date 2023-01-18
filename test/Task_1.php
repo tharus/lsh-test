@@ -1,6 +1,6 @@
 <?php
 
-/* used two for loops (I am not using PHP built in functions here)
+/* Used two for loops (I am not using PHP built in functions here)
 * 1 loop - Iterates 3 times
 * 2 loop - Iterates through the original array
 */
